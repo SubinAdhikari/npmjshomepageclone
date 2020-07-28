@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #000000 } 
+	</style>
+	<path id="Background" class="shp0" d="M69 171L267 171L267 904L69 904L69 171Z" />
+	<path id="Shape 3" class="shp0" d="M726 168L855 168L855 1024L726 1024L726 168Z" />
+	<path id="Shape 3" class="shp0" d="M1352 168L1439 168L1439 901L1352 901L1352 168Z" />
+	<path id="Shape 3" class="shp0" d="M1632 213L1668 213L1668 907L1632 907L1632 213Z" />
+	<path id="Shape 3" class="shp0" d="M1433 168L1884 168L1884 225L1433 225L1433 168Z" />
+	<path id="Shape 3" class="shp0" d="M820 168L1258 168L1258 217L820 217L820 168Z" />
+	<path id="Shape 3" class="shp0" d="M1219 195L1258 195L1258 907L1219 907L1219 195Z" />
+	<path id="Shape 3" class="shp0" d="M826 834L1258 834L1258 907L826 907L826 834Z" />
+	<path id="Shape 1" class="shp0" d="M246 170L624 170L624 282L246 282L246 170Z" />
+	<path id="Shape 3" class="shp0" d="M1847 216L1885 216L1885 904L1847 904L1847 216Z" />
+	<path id="Shape 2" class="shp0" d="M587 264L623 264L623 907L587 907L587 264Z" />
+</svg>

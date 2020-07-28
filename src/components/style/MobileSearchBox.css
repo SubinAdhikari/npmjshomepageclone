@@ -1,0 +1,17 @@
+.mobileSearchBoxMainDiv{
+    width: 100vw;
+    height: 70px;
+    /* background-color: brown; */
+    display: none;
+    justify-content: center;
+    align-items: center;
+    
+}
+@media(max-width:768px){
+    .mobileSearchBoxMainDiv{
+        display: block;
+        display: flex;
+
+       
+    }
+}

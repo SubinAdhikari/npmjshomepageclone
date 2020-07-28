@@ -1,0 +1,69 @@
+.cardMainDiv{
+    width: 20%;
+    height: 60%;
+    border-radius: 20px;
+    /* background-color: red; */
+    margin: 3px;
+    display: flex;
+    flex-direction: column;
+
+}
+.image{
+    width: 100%;
+    height: 30%;
+    /* background-color: yellowgreen; */
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    width: 100%;
+    height: 10%;
+    /* background-color: red; */
+    font-family: 'Recursive', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #3D3D3D;
+}
+.details{
+    width: 100%;
+    height: 40%;
+    /* background-color: orange; */
+    font-family: 'Recursive', sans-serif;
+    text-align: center;
+}
+.LearnMore{
+    width: 100%;
+    height: 20%;
+    /* background-color: orchid; */
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-family: 'Recursive', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.LearnMore .LearnMoreButton{
+    width: 80%;
+    height: 80%;
+    border-radius: 20px;
+    /* background-color: peru; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px black solid;
+    cursor: pointer;
+}
+
+
+@media(max-width:768px){
+    .cardMainDiv{
+        width: 70%;
+        height: 350px;
+        /* background-color: red; */
+    }
+}

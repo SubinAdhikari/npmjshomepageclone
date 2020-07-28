@@ -1,0 +1,49 @@
+.openSourceBannerMainDiv{
+    width: 100vw;
+    height: 45vh;
+    background: linear-gradient( #FD6D0D ,#DF3515, #D12692);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.opensourceBannerTitle{
+width: 50%;
+height: 30%;
+/* background-color: peru; */
+display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Recursive', sans-serif;
+font-size: 3rem;
+color: white;
+text-align: center;
+}
+.opensourceBannerDetails{
+    width: 50%;
+    height: 30%;
+    /* background-color: royalblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Recursive', sans-serif;
+color: white;
+text-align: center;
+
+}
+
+@media(max-width:768px){
+    .opensourceBannerTitle{
+        width: 80%;
+        height: 30%;
+        font-size: 2rem;
+        /* background-color: red; */
+    }
+    .opensourceBannerDetails{
+        width: 80%;
+        height: 60%;
+        /* background-color: green; */
+
+    }
+}

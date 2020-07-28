@@ -1,0 +1,56 @@
+.errorPageMainDiv{
+        width: 100vw;
+        height: 80vh;
+        overflow: hidden;
+        background: linear-gradient( #FD6D0D ,#DF3515, #D12692);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+     }
+     .errorTitle{
+        width: 50%;
+        height: 25%;
+        /* background-color: darkblue; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-family: 'Recursive', sans-serif;
+        font-size: 3rem;
+        font-weight: bolder;
+        text-align: center;
+        }
+
+        .errorButtons{
+            width: 50%;
+            height: 10%;
+            /* background-color: grey; */
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .errorButtons .homePageReturnButton {
+        width: 200px !important;
+        height: 50px;
+        background-color: #C12127;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Recursive', sans-serif;
+        color: white;
+        font-weight: bolder;
+        border-bottom: 5px #FA8717 solid;
+        cursor: pointer;
+        }
+
+
+        @media(max-width:768px){
+        .errorTitle{
+            width: 80%;
+            font-size: 2rem;
+        }
+        .errorButtons .homePageReturnButton {
+            width: 80%;
+        }
+        }

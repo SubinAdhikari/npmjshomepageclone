@@ -1,0 +1,51 @@
+.menuBarMainDiv{
+    width: 100vw;
+    height: 55px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px #E5E5E5 solid;
+
+}
+.leftDiv{
+    width: 40%;
+    height: 100%;
+    /* background-color: green; */
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-family: 'Recursive', sans-serif;
+}
+.rightDiv{
+    width: 40%;
+    height: 100%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rightDiv .menuItem{
+    height: 100%;
+    width: 120px;
+    /* background-color: teal; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Recursive', sans-serif;
+    /* font-size: 14px; */
+    cursor: pointer;
+}
+@media(max-width:768px){
+    .leftDiv{
+        display: none !important;
+    }
+    .rightDiv{
+        width: 100%;
+    }
+    .rightDiv .menuItem{
+        width:90px;
+        height: 40px;
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,75 @@
+.signUpMainDiv{
+    width: 100vw;
+    height: 150vh;
+    background-color: #F7F7F7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Recursive', sans-serif;
+    font-size: 2rem;
+}
+.signUpCenterDiv{
+width: 35%;
+height: 80%;
+background-color: #FFFFFF;
+box-shadow:20px 20px 50px grey; 
+border-radius: 10px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.signUpTitle{
+    width: 80%;
+    height: 10%;
+    /* background-color: chartreuse; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.signUpInputFields{
+    width: 90%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* background-color: chartreuse; */
+}
+.signUpNote{
+    width: 85%;
+    height: 20%;
+    /* background-color: chartreuse; */
+    font-size: 1rem !important;
+}
+.signUpPrivacy{
+    width: 85%;
+    height: 10%;
+    background-color: #F2F2F2;
+    font-size: 1rem !important;
+    padding: 10px;    
+
+}
+.signUpbutton{
+width: 85%;
+height: 10%;
+/* background-color: chartreuse; */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+font-size: 1rem !important;
+margin: 30px;
+}
+
+@media(max-width:768px){
+  .signUpCenterDiv{
+      width: 90%;
+  } 
+  .signUpTitle{width: 100%;} 
+  .signUpInputFields{width: 100%;}
+  .signUpNote{width: 90%;}
+  .signUpPrivacy{width: 90%;}
+}

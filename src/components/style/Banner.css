@@ -1,0 +1,98 @@
+.bannerMainDiv{
+   width: 100vw;
+   height: 80vh;
+   overflow: hidden;
+   background: linear-gradient( #FD6D0D ,#DF3515, #D12692);
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.bannerTitle{
+width: 50%;
+height: 25%;
+/* background-color: darkblue; */
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+font-family: 'Recursive', sans-serif;
+font-size: 3rem;
+font-weight: bolder;
+text-align: center;
+}
+.bannerDetail{
+    width: 50%;
+    height: 15%;
+    /* background-color: yellow;  */
+    display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+font-family: 'Recursive', sans-serif;
+text-align: center;
+}
+.bannerLoginButtons{
+    width: 50%;
+    height: 10%;
+    /* background-color: grey; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.bannerLoginButtons .bannerSignUpButton {
+width: 40%;
+height: 100%;
+background-color: #C12127;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: 'Recursive', sans-serif;
+color: white;
+font-weight: bolder;
+border-bottom: 5px #FA8717 solid;
+cursor: pointer;
+}
+.bannerLoginButtons .bannerLearnMoreButton{
+    width: 40%;
+height: 100%;
+background-color: #E81AA8;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: 'Recursive', sans-serif;
+color: white;
+font-weight: bolder;
+border-bottom: 5px #B30AD2 solid;
+cursor: pointer;
+
+}
+
+@media(max-width:768px){
+    .bannerMainDiv{
+        height: 100vh;
+    }
+    .bannerTitle{
+        width: 80%;
+        height: 15%;
+        font-size: 1.5rem;
+    }
+    .bannerDetail{
+        width: 80%;
+        height: 20%;
+        font-size: 14px;
+    }
+    .bannerLoginButtons{
+        width: 80%;
+        height: 20%;
+        flex-direction: column;
+    }
+    .bannerLoginButtons .bannerSignUpButton {
+        width: 100%;
+        height: 40%;
+        }
+        .bannerLoginButtons .bannerLearnMoreButton{
+        width: 100%;
+        height: 40%;
+        }
+}

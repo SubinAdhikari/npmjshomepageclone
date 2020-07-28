@@ -1,0 +1,16 @@
+.ourPackagesMainDiv{
+    width: 100vw;
+    height: 80vh;
+    /* background-color: tomato; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+@media(max-width:768px){
+    .ourPackagesMainDiv{
+        height: auto;
+        flex-direction: column;
+    }
+}

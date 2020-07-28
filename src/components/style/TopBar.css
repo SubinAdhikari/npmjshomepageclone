@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.tobarmainDiv{
+    width: 100vw;
+    height: 90px;
+    background-color:#231F20 ;
+    /* border-bottom: 10px blue solid; */
+    border-bottom: 10px solid transparent;
+    border-image: linear-gradient(to right, #FD6D0D ,#DF3515, #D12692);
+    border-image-slice: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white; 
+    font-family: 'Recursive', sans-serif;
+font-size: 1.2rem;
+}

@@ -1,0 +1,269 @@
+ .prductPageMainDiv{
+        width: 100vw;
+        height: 120vh;
+        overflow: hidden;
+        background: var(--background);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+ }
+
+ :root{
+     --background :   repeating-linear-gradient(45deg,
+     #AF0F51,
+     #B11148 200px ,
+     #B00F45 200px)
+ }
+
+ .Title{
+    width: 50%;
+    height: 25%;
+    /* background-color: darkblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Recursive', sans-serif;
+    font-size: 5rem;
+    font-weight: bolder;
+    text-align: center;
+ }
+ .priceCardMainDiv{
+     width: 80%;
+     height: 70%;
+     /* background-color: tomato; */
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ .priceCard{
+     width: 25%;
+     height: 90%;
+     /* background-color: yellowgreen; */
+     margin: 10px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center; 
+     font-family: 'Recursive', sans-serif;
+
+ }
+ .cardTitle{
+width: 100%;
+height: 20%;
+background-color: #333333;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+color:white;
+ }
+ .cardImg{
+    width: 100%;
+    height: 20%;
+    /* background-color: red; */
+    background-color: #FFFFFF;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .packageType{
+    width: 100%;
+    height: 10%;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+ }
+ .packagePrice{
+    width: 100%;
+    height: 10%;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+ }
+ .packageFeature{
+    width: 100%;
+    height: 25%;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+ }
+ .takePackage{
+    width: 100%;
+    height: 15%;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .takePackage .takeButton{
+   width: 70%;
+   height: 50%;
+   border-radius: 20px;
+   /* background-color: peru; */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border: 1px black solid;
+   cursor: pointer;
+   text-transform: uppercase;
+}
+
+.FeatureComparisionMainDiv{
+   width: 100%;
+   height: 100vh;
+   /* background-color: green; */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.comparisionBox{
+   width: 50%;
+   height: 80%;
+   border-top: 5px solid transparent;
+      border-bottom: 5px solid transparent;
+    border-image: linear-gradient(to right, #FD6D0D ,#DF3515, #D12692);
+    border-image-slice: 1;
+    background-color: #FFFFFF;
+    box-shadow:20px 20px 50px grey; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Recursive', sans-serif;
+
+}
+.comparisionTitle{
+   width: 100%;
+   height: 10%;
+   background-color: #777777;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 2rem;
+   color: white;
+}
+.comparisionBox1{
+width: 100%;
+height: 30%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.comparisionBox2{
+   width: 100%;
+   height: 30%;
+   background-color: #EEEEEE;
+   display: flex;
+   flex-direction: column;
+
+   justify-content: center;
+   align-items: center;
+}
+.comparingPackageTitle{
+width: 50%;
+height: 30%;
+/* background-color: red; */
+text-align: center;
+font-family: 'Recursive', sans-serif;
+}
+.offers{
+   width: 50%;
+   height: 60%;
+   /* background-color: yellow; */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.Free{
+width: 30%;
+height: 100%;
+/* background-color: #333333; */
+display: flex;
+flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.Pro{
+   width: 30%;
+   height: 100%;
+   /* background-color: red; */
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.Team{
+   width: 30%;
+   height: 100%;
+   /* background-color: blue; */
+   display: flex;
+   flex-direction: column;
+
+   justify-content: center;
+   align-items: center;
+}
+
+
+/* Grow A card CSS */
+.priceCard { transition: all .2s ease-in-out; }
+.priceCard:hover { transform: scale(1.1); }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:768px){
+   .prductPageMainDiv{
+      height: auto;
+   }
+ 
+   .priceCardMainDiv{
+flex-direction: column;
+height: auto;
+   }
+   .Title{
+      width: 80%;
+      font-size: 3rem;
+      margin-top: 20px;
+   }
+   .priceCard{
+      width: 100%;
+      height: 450px;
+   }
+   /* .FeatureComparisionMainDiv{
+      height: auto;
+   } */
+   .comparisionBox{
+      width: 80%;
+      height: 90%;
+   }
+   .comparisionTitle{
+      font-size: 1.4rem;
+   }
+   .comparingPackageTitle{
+      width: 80%;
+   }
+}

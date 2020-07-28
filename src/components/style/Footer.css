@@ -1,0 +1,62 @@
+.footerMainDiv{
+    width: 100%;
+    height: 60vh;
+    /* background-color: teal; */
+    border-bottom: 10px solid transparent;
+    border-image: linear-gradient(to right, #FD6D0D ,#DF3515, #D12692);
+    border-image-slice: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Recursive', sans-serif;
+    font-size: 1.5rem;
+    color: #231F20;
+
+}
+
+.footerMainDiv span{
+    font-size: 1.2rem;
+    color: #868686;
+    cursor: pointer;
+}
+.footerLogo{
+width: 10%;
+height: 80%;
+/* background-color: tomato; */
+
+}
+.footerHelp{
+    width: 25%;
+    height: 80%;
+    /* background-color: red; */
+}
+.footerAbout{
+    width: 25%;
+    height: 80%;
+    /* background-color: green; */
+}
+.footerTermsAndPolicies{
+    width: 25%;
+    height: 80%;
+    /* background-color: blue; */
+}
+
+@media(max-width:768px){
+    .footerMainDiv{
+        margin-top: 30px;
+        flex-direction: column;
+        height: auto;
+    }
+    .footerLogo{
+        width: 80%;
+    }
+    .footerHelp{
+        width: 80%;
+    }
+    .footerAbout{
+         width: 80%;
+    }
+    .footerTermsAndPolicies{
+        width: 80%;
+    }
+}

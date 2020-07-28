@@ -1,0 +1,80 @@
+.signInMainDiv{
+    width: 100vw;
+    height: 100vh;
+    background-color: #F7F7F7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Recursive', sans-serif;
+    font-size: 2rem;
+}
+.signInCenterDiv{
+    width: 35%;
+    height: 80%;
+    background-color: #FFFFFF;
+    box-shadow:20px 20px 50px grey; 
+    border-radius: 10px;
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+    }
+
+
+
+    .signInTitle{
+        width: 80%;
+        height: 10%;
+        /* background-color: chartreuse; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .signInInputFields{
+        width: 80%;
+        height: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        /* background-color: coral; */
+        margin-top: 20px;
+    }
+    .signInNote{
+        width: 85%;
+        height: 20%;
+        /* background-color: chartreuse; */
+        font-size: 1rem !important;
+    }
+    .signInPrivacy{
+        width: 85%;
+        height: 10%;
+        background-color: #F2F2F2;
+        font-size: 1rem !important;
+        padding: 10px;    
+    
+    }
+    .signInbutton{
+    width: 85%;
+    height: 10%;
+    /* background-color: chartreuse; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem !important;
+    margin: 30px;
+    }
+    
+    @media(max-width:768px){
+        .signInCenterDiv{
+            width: 90%;
+        }
+      .signInTitle{width: 100%;} 
+      .signInInputFields{width: 100%;}
+      .signInNote{width: 90%;}
+      .signInPrivacy{width: 90%;}
+    }
+

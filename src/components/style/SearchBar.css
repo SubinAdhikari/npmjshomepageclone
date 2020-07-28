@@ -1,0 +1,74 @@
+.searchBarMainDiv{
+    width: 100vw;
+    height: 90px;
+    /* background-color: teal; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.logoDiv{
+width: 10%;
+height: 100%;
+/* background-color: green; */
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: 'Recursive', sans-serif;
+/* color: white; */
+text-transform: uppercase;
+}
+.searchBoxDiv{
+    width: 70%;
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+justify-content: center;
+align-items: center;
+}
+.loginDiv{
+    width: 20%;
+    height: 100%;
+    /* background-color: yellow; */
+    display: flex;
+justify-content: center;
+align-items: center;
+}
+.signUp{
+width: 100px;
+height: 60px;
+/* background-color: brown; */
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: 'Recursive', sans-serif;
+border: 1px #E5E5E5 solid;
+cursor: pointer;
+
+
+}
+.signIn{
+    width: 100px;
+    height: 60px;
+    /* background-color: coral; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Recursive', sans-serif;
+cursor: pointer;
+}
+@media(max-width:768px){
+    .searchBarMainDiv{
+        height: 70px;
+        justify-content: space-between;
+    }
+    .logoDiv{
+        width: 30%;
+    }
+    .searchBoxDiv{
+        display: none;
+    }
+    .loginDiv{
+        width: 60%;
+    }
+}

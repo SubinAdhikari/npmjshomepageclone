@@ -1,0 +1,41 @@
+.greatFulToMainDiv{
+    width: 100vw;
+    height: 120vh;
+    /* background-color: tomato; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px #E5E5E5 solid;
+
+
+}
+.greatFulToTitle{
+    width: 50%;
+    height: 20vh;
+    /* background-color: violet; */
+    text-align: center;
+    font-family: 'Recursive', sans-serif;
+font-size: 2rem;
+}
+.companiesImg{
+    width: 50%;
+    height: 80vh;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media(max-width:768px){
+.greatFulToTitle{
+    width: 80%;
+    font-size: 1.5rem;
+}
+.companiesImg{
+    width: 80%;
+}
+
+
+}

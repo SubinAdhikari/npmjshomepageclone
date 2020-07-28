@@ -1,0 +1,59 @@
+.searchInputMainDiv{
+    width: 98%;
+    height: 60%;
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.searchLogo{
+width: 5%;
+height: 100%;
+/* background-color: tomato; */
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.inputField{
+    width: 85%;
+    height: 100%;
+    /* background-color: yellowgreen; */
+    display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.inputField input{
+    width: 100%;
+    height: 100%;
+    /* outline: none; */
+    font-family: 'Recursive', sans-serif;
+    background-color: #F2F2F2;
+    font-size: 20px;
+    border: 1px #F2F2F2 solid;
+
+}
+.searchButton{
+    width: 10%;
+    height: 100%;
+    background-color: #231F20;
+    display: flex;
+justify-content: center;
+align-items: center;
+font-family: 'Recursive', sans-serif;
+color: white;
+font-weight: 500 !important;
+cursor: pointer;
+}
+
+@media(max-width:768px){
+    .searchLogo{
+        width: 10%;
+    }
+    .inputField{
+        width: 60%;
+    }
+    .searchButton{
+        width: 30%;
+    }
+}
