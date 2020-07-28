@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/npmjshomepageclone/static/css/main.d2436648.chunk.css",
+    "main.js": "/npmjshomepageclone/static/js/main.9a39c64d.chunk.js",
+    "main.js.map": "/npmjshomepageclone/static/js/main.9a39c64d.chunk.js.map",
+    "runtime-main.js": "/npmjshomepageclone/static/js/runtime-main.8e322296.js",
+    "runtime-main.js.map": "/npmjshomepageclone/static/js/runtime-main.8e322296.js.map",
+    "static/js/2.f073e8f9.chunk.js": "/npmjshomepageclone/static/js/2.f073e8f9.chunk.js",
+    "static/js/2.f073e8f9.chunk.js.map": "/npmjshomepageclone/static/js/2.f073e8f9.chunk.js.map",
+    "index.html": "/npmjshomepageclone/index.html",
+    "precache-manifest.3ccc9fbd3e707c70f5c50c54ff561a7f.js": "/npmjshomepageclone/precache-manifest.3ccc9fbd3e707c70f5c50c54ff561a7f.js",
+    "service-worker.js": "/npmjshomepageclone/service-worker.js",
+    "static/css/main.d2436648.chunk.css.map": "/npmjshomepageclone/static/css/main.d2436648.chunk.css.map",
+    "static/js/2.f073e8f9.chunk.js.LICENSE.txt": "/npmjshomepageclone/static/js/2.f073e8f9.chunk.js.LICENSE.txt",
+    "static/media/aboutus.png": "/npmjshomepageclone/static/media/aboutus.f3bf7aa5.png",
+    "static/media/companies.png": "/npmjshomepageclone/static/media/companies.76883a51.png",
+    "static/media/npmlogoimg-svg.svg": "/npmjshomepageclone/static/media/npmlogoimg-svg.1cd2de8f.svg",
+    "static/media/npmlogoimg.svg": "/npmjshomepageclone/static/media/npmlogoimg.a155adb1.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8e322296.js",
+    "static/js/2.f073e8f9.chunk.js",
+    "static/css/main.d2436648.chunk.css",
+    "static/js/main.9a39c64d.chunk.js"
+  ]
+}
